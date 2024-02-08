@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let students = {
+            "stdName": "Affan", //string
+            "stdAge": 21, //number
+            "stdMarks": 82.35, //float
+            "eligible": true, //boolean
+            "stdnumber": ["031567788", "02145667"],
+            "stdemail": ["john1234@gmail.com", "affan654@gmail.com"],
+            "stdHobbies": ["cricket", "Swimming", "Football"], //array
+            "stdmarks": ["50", "70", "60"]
+
+
+        }
+        for (i in students) {
+            document.write(i + ':');
+            document.write(students[i] + "</br>")
+        }
+       
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="mobile.dtd" type="application/xml-dtd"?>
+<?xml-stylesheet href="mobile.xsl" type="text/xsl"?>
+<mobileShop>
+    <!-- <mobile>
+        <id>002</id>
+        <name>Samsung</name>
+        <brand>Samsung</brand>
+        <price>80,000</price>
+    </mobile> -->
+    <mobile>
+        <id>0035</id>
+        <name>Iphone</name>
+        <brand>Apple</brand>
+        <price>67000</price>
+    </mobile>
+    <mobile>
+        <id>008</id>
+        <name>Infinix Hot9</name>
+        <brand>Infinix</brand>
+        <price>30000</price>
+    </mobile>
+    <!-- <mobile>
+        <id>003</id>
+        <name>Pixel 5</name>
+        <brand>Google</brand>
+        <price>60,000</price>
+    </mobile> -->
+    <!-- <mobile>
+        <id>006</id>
+        <name>Tecno Spark</name>
+        <brand>Tecno</brand>
+        <price>30,000</price>
+    </mobile> -->
+</mobileShop>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+</head>
+
+<body>
+    <h1>Diff type of data in json</h1>
+    <script>
+
+        let students = {
+            "stdName" : "Affan", //string
+            "stdAge" : 21, //number
+            "stdMarks" : 82.35, //float
+            "eligible" : true, //boolean
+            "stdHobbies" : ["cricket", "Swimming", "Football"], //array
+            // "stdDesc" : { "fatherName": "Ali", "Location": "North Nazimabad", "Education": "Matriculation" }
+
+        }
+        // console.log((typeof)students)
+        console.log(students.stdName)
+        console.log(students.stdAge)
+        console.log(students.stdMarks)
+        console.log(students.eligible)
+        console.log(students.stdHobbies[1])
+        console.log(students.stdHobbies)
+        console.log( students.stdDesc.Education)
+
+
+    </script>
+</body>
+
+</html>
